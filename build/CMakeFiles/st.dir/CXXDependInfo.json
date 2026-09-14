@@ -1,0 +1,43 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : 
+	{
+		"CMakeFiles/st.dir/src/j.cpp.o" : 
+		{
+			"bmi-only" : false,
+			"compile-features" : [],
+			"compile-options" : [],
+			"definitions" : [],
+			"destination" : null,
+			"include-directories" : [],
+			"name" : "CXX_MODULES",
+			"relative-directory" : "src",
+			"source" : "/home/hnariman/code/cpp/structure/src/j.cpp",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/hnariman/code/cpp/structure/build",
+	"dir-cur-src" : "/home/hnariman/code/cpp/structure",
+	"dir-top-bld" : "/home/hnariman/code/cpp/structure/build",
+	"dir-top-src" : "/home/hnariman/code/cpp/structure",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/hnariman/code/cpp/structure/build/CMakeFiles/st.dir",
+	"sources" : 
+	{
+		"CMakeFiles/st.dir/src/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/hnariman/code/cpp/structure/src/main.cpp"
+		}
+	}
+}

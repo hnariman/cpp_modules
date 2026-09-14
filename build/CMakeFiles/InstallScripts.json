@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hnariman/code/cpp/structure/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

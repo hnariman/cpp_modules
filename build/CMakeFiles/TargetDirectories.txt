@@ -1,0 +1,3 @@
+/home/hnariman/code/cpp/structure/build/CMakeFiles/st.dir
+/home/hnariman/code/cpp/structure/build/CMakeFiles/edit_cache.dir
+/home/hnariman/code/cpp/structure/build/CMakeFiles/rebuild_cache.dir
