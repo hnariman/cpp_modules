@@ -20,13 +20,9 @@ make test-container
 
 #### Tooling needed: 
 
-[cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+[cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) AND [cargo generate](https://github.com/cargo-generate/cargo-generate)
 
-[cargo generate](https://github.com/cargo-generate/cargo-generate)
-
-[docker](https://docs.docker.com/engine/install/)
-
-[podman](https://podman.io/)
+[docker](https://docs.docker.com/engine/install/) OR [podman](https://podman.io/)
 
 
 
