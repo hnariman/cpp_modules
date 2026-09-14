@@ -2,6 +2,7 @@
 
 CXX := clang++
 ARGS = -DCMAKE_CXX_COMPILER=$(CXX) -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+DOCKER = docker run --rm -v "$$PWD:/workspace:z" -w /workspace cpp
 
 build: clean
 	@cmake -B build -G Ninja -S . $(ARGS)
@@ -15,3 +16,12 @@ test: build
 
 run:
 	@./build/st
+
+container:
+	@docker build -t cpp .
+
+build-container: container
+	@$(DOCKER) make build
+
+test-container: container
+	@$(DOCKER) make test
