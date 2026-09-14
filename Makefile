@@ -1,4 +1,4 @@
-.PHONY: build clean run
+.PHONY: build clean run test
 
 CXX := clang++
 ARGS = -DCMAKE_CXX_COMPILER=$(CXX) -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
@@ -9,6 +9,9 @@ build: clean
 
 clean:
 	@$(RM) -rf build
+
+test: build
+	@ctest --test-dir build --output-on-failure
 
 run:
 	@./build/st
