@@ -1,6 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/st.dir/src/main.cpp.o: dyndep | CMakeFiles/st.dir/jo.pcm
-
-build CMakeFiles/st.dir/src/j.cpp.o | CMakeFiles/st.dir/jo.pcm: dyndep
-  restat = 1
-
